@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>ImageToolLib Demo</title>
+</head>
+<body>
+<h2>ImageToolLib Demo</h2>
+<input type="file" id="fileInput" multiple>
+<button id="downloadZip">Download ZIP</button>
+
+<script src="imagetoolZip-lib.js"></script>
+<script>
+  const tool = new ImageToolLib();
+  const input = document.getElementById('fileInput');
+  const btn = document.getElementById('downloadZip');
+
+  input.addEventListener('change', async (e) => {
+    const files = e.target.files;
+    tool.clearFiles();
+
+    for (const file of files) {
+      const compressed = await tool.compressImage(file, 0.7);
+      tool.addFile(file.name, compressed);
+    }
+    alert('Images ready! Click Download ZIP.');
+  });
+
+  btn.addEventListener('click', () => {
+    tool.createZip('my_images.zip');
+  });
+</script>
+</body>
+</html>
