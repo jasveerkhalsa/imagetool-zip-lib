@@ -2,7 +2,7 @@
  * ImageTool.org - Standalone Image Processing & Zip Library
  * Fast, dependency-free JavaScript library for image processing and file compression
  * Author: ImageTool.org Team
- * Version: 1.0.1 (Fixed ZIP offset issue)
+ * Version: 1.0.4 (Fixed ZIP offset issue)
  */
 
 class ImageToolLib {

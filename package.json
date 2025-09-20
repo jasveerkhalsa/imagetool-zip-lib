@@ -1,6 +1,6 @@
 {
   "name": "imagetool-zip-lib",
-  "version": "1.0.1",
+  "version": "1.0.4",
   "description": "Standalone Image Processing & Zip Library - dependency-free JS library",
   "main": "imagetoolZip-lib.js",
   "author": "ImageTool.org Team",
@@ -14,17 +14,18 @@
     "library"
   ],
   "files": [
-    "imagetoolZip-lib.js"
+    "imagetoolZip-lib.js",
+    "imagetoolZip-lib.min.js"
   ],
   "scripts": {
     "test": "echo \"No tests yet\""
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yourusername/imagetool-lib.git"
+    "url": "git+https://github.com/jasveerkhalsa/imagetool-zip-lib.git"
   },
   "bugs": {
-    "url": "https://github.com/yourusername/imagetool-lib/issues"
+    "url": "https://github.com/jasveerkhalsa/imagetool-zip-lib/issues"
   },
-  "homepage": "https://github.com/yourusername/imagetool-lib#readme"
+  "homepage": "https://github.com/jasveerkhalsa/imagetool-zip-lib#readme"
 }
