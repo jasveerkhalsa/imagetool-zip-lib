@@ -1,6 +1,6 @@
 # 📦 ImageToolLib
 
-**Standalone Image Processing & ZIP Library** – fast, dependency-free JavaScript library for image processing, compression, and batch zipping directly in the browser.  
+**Standalone Image Processing & ZIP Library** – fast, dependency-free JavaScript library for image processing, compression, and batch zipping directly in the browser.   🌐 [imagetool.org](https://imagetool.org)
 
 - 🚀 No external dependencies (like JSZip or extra Canvas libs)  
 - 🌐 Works offline using pure JavaScript + Canvas API  
